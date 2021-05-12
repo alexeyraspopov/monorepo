@@ -1,0 +1,21 @@
+{
+  "name": "monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.13.13",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.26.0",
+    "jest": "^26.6.3",
+    "vite": "^2.3.1"
+  },
+  "browserslist": [
+    "last 1 Firefox version",
+    "last 1 Safari version",
+    "last 1 Chrome version"
+  ]
+}
