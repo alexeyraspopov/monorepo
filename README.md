@@ -13,4 +13,4 @@ Simple monorepo that uses [NPM Workspaces](https://docs.npmjs.com/cli/v7/using-n
 - All dependencies are stored in a single place and deduped
 - Packages can use sibling packages without versioning and publishing to registries
 - I added a prefix `@monorepo/` to packages name to avoid naming clashes in `node_modules`
-- Vite, Jest, and ESLint work just fine with workspaces
+- Vite, Jest, Flow, and ESLint work just fine with workspaces

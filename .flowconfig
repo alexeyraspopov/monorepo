@@ -1,0 +1,13 @@
+[ignore]
+
+[include]
+
+[libs]
+
+[lints]
+all=warn
+
+[options]
+exact_by_default=true
+
+[strict]
